@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apache-tika">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tika-app-1.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
