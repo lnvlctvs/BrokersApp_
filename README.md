@@ -1,38 +1,29 @@
--Το project δημιουργήθηκε σε περιβάλλον Intellij IDEA 2021.1 x64 .
+-The project was created in Intellij IDEA 2021.1 x64 environment.
 
--Αφού κατεβάσετε το library apache-tika (tika-app-1.25.jar) και μερικά βίντεο που χρησιμοποιήσαμε από το παρακάτω link:
+-After downloading the apache-tika library (tika-app-1.25.jar) and some videos 
 
-VIDEOS		----> https://www.dropbox.com/s/2lieo7radd6lwgq/Videos.zip?dl=0
-APACHE-TIKA 	----> https://www.dropbox.com/s/jjjzl9avrvxyayu/tika-app-1.25.jar?dl=0
+-Place the videos in the respective folders ( PUB1 VIDEOS, PUB2 VIDEOS ) of the project, 
+because the project paths are configured to read .mp4 files from these folders.
 
+-The project is made to work after the broker System is created , which consists of 3 brokers.
 
--Tοποθετήστε τα βίντεο στους αντίστοιχους φακέλους ( PUB1 VIDEOS, PUB2 VIDEOS ) του project, 
-διότι τα path του project είναι ρυθμισμένα να διαβάζουν .mp4 αρχεία από τους συγκεκριμένους φακέλους.
-
--Το project είναι φτιαγμένο για να λειτουργεί αφού δημιουργηθεί πρώτα το broker System , το οποίο αποτελείται απο 3 brokers.
-
--Η εφαρμογή γενικά έχει 3 main, την PublisherImpl, την BrokerImpl και την ConsumerImpl
-Χρησιμοποιώντας λοιπόν Intellij , για να το τρέξουμε ακολουθούμε τα εξής βηματα:
+-The application generally has 3 mains, PublisherImpl, BrokerImpl and ConsumerImpl
+So using Intellij , to run it we follow the following steps:
 
 
-	1)Με Program Arguments τον αριθμό 1, run την BrokerImpl
-	2)Με Program Arguments τον αριθμό 2, run την BrokerImpl
-	3)Με Program Arguments τον αριθμό 3, run την BrokerImpl
+	1)With Program Arguments number 1, run BrokerImpl
+	2)With Program Arguments number 2, run BrokerImpl
+	3)With Program Arguments number 3, run BrokerImpl
 
 	
-	4)Με Program Arguments τον αριθμό 1, run την PublisherImpl
-	5)Με Program Arguments τον αριθμό 2, run την PublisherImpl
+	4)With Program Arguments number 1, run PublisherImpl
+	5)With Program Arguments number 2, run PublisherImpl
 
-	6)Τέλος, κάνουμε run την ConsumerImpl,  λαμβάνουμε δεδομένα από το BrokerSystem 
-	και στην συνέχεια με βάση την λίστα που θα εμφανιστεί επιλέγουμε τι είδους βίντεο θέλουμε να δούμε.
+	6)Finally, we run ConsumerImpl, get data from BrokerSystem 
+	and then based on the list that comes up we choose what kind of video we want to watch.
 
+-The names of the hashtags or the ChannelName we wish to see, we copy - paste or type them ,as they will appear in the list to avoid any errors!!
 
--Τα ονόματα των hashtag ή των ChannelName που επιθυμούμε να δούμε τα κάνουμε copy - paste ή τα πληκτρολογούμαι όπως θα μας εμφανίζονται στην λιστά για αποφυγή τυχον σφαλμάτων!!
+-For any clarification or questions please contact the following email:
 
--Για οποιαδήποτε διευκρίνιση ή απορία επικοινωνήστε με ένα απο τα παρακάτω email:
-
-velis7_me@hotmail.com
-stefanostakas@icloud.com
-dionisisarvanitis@protonmail.com
-
-Σας ευχαριστούμε πολύ.
+stavrianosvel@outlook.com
